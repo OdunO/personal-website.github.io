@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family:'Playfair Display SC',
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen-Sans,
+    Ubuntu,
+    Cantarell,
+    "Helvetica Neue",
+    sans-serif;
+    position: relative;
+    background: #888;
+}
+h2{
+    color: whitesmoke;
+    font-weight: 200;
+}
+.firstName{
+    font-weight: lighter;
+    color: lightyellow;
+    font-size: 40px;
+    font-style: italic;
+}
+#name{
+    margin-left: 300px;
+    margin-top:100px;
+    font-weight: bold;
+    font-family: 'Playfair Display SC';
+}
+.lastName{
+    color: #fff;
+    font-size: 4rem;
+}
+.text{
+    font-size: large;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#form{
+  width: 800px;
+  margin: 0 auto;
+  color: whitesmoke;
+}
+#footer{
+  clear: both;
+  text-align: center;
+  width:100%;
+}
+.center{
+  text-align: center;
+  font-style: italic;
+}
+.left{
+  float: left;
+  padding-left: 30px;
+}
+h3{
+  padding-left: 30px;
+}
+ul.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+ul.nav li a:hover{
+    background-color: grey;
+}
+ul.nav li{
+    float: right;
+}
+ul.nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    height: 60rem;
+}
+.fixed{
+    width: 400px;
+}
+.flex-item{
+    flex-grow: 1;
+    float: right;
+    position: relative;
+    background: url('Untitled.jpg');
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+a{
+    color:#333;
+    text-decoration:none;
+    font-family: cursive;
+    font-size: 20px;
+}
